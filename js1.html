@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<input type="text">
+<script type="text/javascript">
+    var field = document.querySelector("input");
+    field.addEventListener("keypress", function (e) {
+        if (e.which == 65 || e.which == 97 ||
+                e.which == 85 || e.which == 117 ||
+                e.which == 79 || e.which == 111 ||
+                e.which == 67 || e.which == 99 ||
+                e.which == 78 || e.which == 110) {
+            alert("invalid character");
+            e.preventDefault();
+        }
+    });
+
+</script>
+
+</body>
+</html>
