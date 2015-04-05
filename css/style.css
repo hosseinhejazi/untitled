@@ -1,0 +1,163 @@
+
+
+.divbody{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../img/swirl_pattern.png);
+    background-repeat: repeat;
+    border: 3px solid grey;
+
+}
+
+header{
+
+    font-family: "Times New Roman", Times, serif;
+
+    width: 940px;
+    height: 250px;
+    background-color: black;
+    color: #505050;
+    border-radius:20px;
+    background-image:url(../img/confectionary.png);
+    position: relative;
+    top:10px;
+    left: 5px;
+    border: 5px groove grey;
+
+
+}
+
+
+
+aside{
+    display: inline-block;
+    width:250px;
+    height:100%;
+    float:right;
+    border-radius:20px;
+    background-image: url(../img/confectionary.png);
+    position: relative;
+    top: 20px;
+    border: 3px solid grey;
+    position:relative;
+    right: 5px;
+
+}
+
+#wellcome{
+    position:relative;
+    top: 10px;
+    left: 10px;
+    color: #505050;
+}
+
+a:hover {
+    color: #A9A9A9;
+    text-indent: 10px;
+    text-decoration : none;
+}
+
+#mainPost{
+
+    font-style: oblique;
+    width: 680px;
+    height:100%;
+    left:10px;
+    background-image:url(../img/confectionary.png);
+    border-radius: 20px;
+    border: solid;
+    position: relative;
+    top:20px;
+    text-indent: 10px;
+    border: 3px inset grey;
+
+
+}
+
+.author{
+   text-align: left;
+   text-indent: 10px;
+}
+
+#hosseinpic{
+    width:200px;
+    height:200px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+#biography{
+    color: groove grey;
+    text-indent: 5px;
+
+}
+
+#link{
+    text-align: center;
+   text-color: #A9A9A9;
+
+}
+
+#aboutSite{
+    text-indent:10px;
+}
+
+#table{
+     border: 1px solid black;
+     width: 99%;
+     border: 1px solid grey;
+
+
+}
+
+th{
+    height: 15px;
+    text-align: center;
+    border: 1px solid grey;
+    background-color:#333333;
+    color: white;
+}
+
+td {
+    text-align: center;
+    height: 30px;
+    vertical-align: bottom;
+    padding: 15px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#form1{
+    text-align: left;
+}
+
+.odd{
+    background-color: white;
+}
+
+.couple{
+    background-color: #D3D3D3;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid grey;
+
+}
+
+.image{
+    width:250px;
+    height:250px;
+
+}
+
+
+#list{
+
+
+}
